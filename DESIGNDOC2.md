@@ -125,7 +125,7 @@
 
     For 2 bytes of data, the least number is 1: the two bytes are existent in the same page. The largest number is 2: the two bytes are existent in separate pages.
 
-	There is no way to avoid doint two page lookups, so no improvement can be made.
+	There is no way to avoid doing two page lookups, so no improvement can be made.
 
 
 - (B5) Briefly describe your implementation of the "wait" system call and how it interacts with process termination.
